@@ -1,0 +1,63 @@
+<html>
+<body>
+</body>
+<style>
+table{
+color:red;
+border-radius:8px;
+
+background-color:gray;
+}
+input{
+background-color:pink;
+}
+td{
+font-size:50px;
+}
+</style>
+
+
+<form action="regdetail.php">
+<table border="2" align="center" >
+<tr>
+<td id="nam">NAme</td>
+<td><input type="text" name="name" ></td>
+</tr>
+
+<tr>
+<td>password</td>
+<td><input type="password" name="pass" ></td>
+</tr>
+
+<tr>
+<td>Education</td>
+<td><select name="edu" >
+<option>Mba</option>
+<option>bba</option>
+<option>ma</option>
+</td>
+</tr>
+
+<tr>
+<td>hobbies</td>
+<td><input type="checkbox" name="check[]" value="reading">reading
+<input type="checkbox" name="check[]" value="writning">writing
+</td>
+
+<td>hobbies</td>
+<td><input type="checkbox" name="check[]" value="reading">reading
+
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="btn" value="Submit">
+</td>
+
+</tr>
+</table>
+
+
+</form>
+
+
+</html>
